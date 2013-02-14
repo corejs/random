@@ -1,5 +1,3 @@
-module.exports = random;
-
-var random = function (base) {
+var random = module.exports = function (base) {
   return Math.floor(Math.random() * base);
 };
