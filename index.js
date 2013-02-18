@@ -45,7 +45,7 @@ var cycleArr = function (base) {
 
   var next = function () {
     var idx = pickInt(left.length),
-        r = left.splice(idx, 1);
+        r = left.splice(idx, 1)[0];
     
     if (!left.length) {
       left = base.slice();
