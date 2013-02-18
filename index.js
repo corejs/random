@@ -15,7 +15,7 @@ var Random = function (base) {
     },
     'arr': function () {
       random.pick = function () {
-        return picrArr(base);
+        return pickArr(base);
       };
       random.next = cycleArr(base);
     }
