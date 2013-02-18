@@ -50,6 +50,8 @@ var cycleArr = function (base) {
     if (!left.length) {
       left = base.slice();
     }
+
+    return r;
   };
 
   return next;
