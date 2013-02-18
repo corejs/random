@@ -33,7 +33,7 @@ var pickArr = function (base) {
 var cycleInt = function (base) {
   var arr = [];
 
-  for (var i = 0; i < int; i++) {
+  for (var i = 0; i < base; i++) {
     arr.push(i);
   }
 
